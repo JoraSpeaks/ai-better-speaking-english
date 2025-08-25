@@ -8,7 +8,7 @@ import { Text } from './Text';
 interface ButtonProps {
   label: string;
   onPress: () => void;
-  variant?: 'primary' | 'secondary' | 'outline';
+  variant?: 'primary' | 'secondary' | 'outline' | 'error';
   size?: 'small' | 'medium' | 'large';
   loading?: boolean;
   disabled?: boolean;
@@ -38,6 +38,11 @@ export const Button = ({
           backgroundColor: theme.colors.secondary,
           borderColor: theme.colors.secondary,
         };
+      case 'error':
+        return {
+          backgroundColor: theme.colors.error,
+          borderColor: theme.colors.error,
+        };
       case 'outline':
         return {
           backgroundColor: 'transparent',
@@ -48,6 +53,9 @@ export const Button = ({
         return {
           backgroundColor: theme.colors.primary,
           borderColor: theme.colors.primary,
+        };
+    }
+  };
         };
     }
   };
