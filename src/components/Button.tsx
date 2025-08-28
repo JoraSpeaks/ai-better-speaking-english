@@ -1,5 +1,5 @@
 import React from 'react';
-import { TouchableOpacity, StyleSheet, ActivityIndicator } from 'react-native';
+import { TouchableOpacity, StyleSheet, ActivityIndicator, View } from 'react-native';
 import { useTheme } from '@shopify/restyle';
 import { Theme } from '../theme/theme';
 import Animated, { FadeIn, FadeOut } from 'react-native-reanimated';
@@ -53,9 +53,6 @@ export const Button = ({
         return {
           backgroundColor: theme.colors.primary,
           borderColor: theme.colors.primary,
-        };
-    }
-  };
         };
     }
   };
