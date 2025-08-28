@@ -1,0 +1,51 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F0F8FF"/>
+  
+  <!-- Person 1 -->
+  <g fill="#FFB6C1" stroke="#000" stroke-width="2">
+    <!-- Head -->
+    <circle cx="150" cy="120" r="25"/>
+    <!-- Body -->
+    <line x1="150" y1="145" x2="150" y2="200"/>
+    <!-- Arms -->
+    <line x1="150" y1="165" x2="130" y2="180"/>
+    <line x1="150" y1="165" x2="170" y2="180"/>
+    <!-- Legs -->
+    <line x1="150" y1="200" x2="135" y2="230"/>
+    <line x1="150" y1="200" x2="165" y2="230"/>
+  </g>
+  
+  <!-- Person 2 -->
+  <g fill="#87CEEB" stroke="#000" stroke-width="2">
+    <!-- Head -->
+    <circle cx="250" cy="120" r="25"/>
+    <!-- Body -->
+    <line x1="250" y1="145" x2="250" y2="200"/>
+    <!-- Arms -->
+    <line x1="250" y1="165" x2="230" y2="180"/>
+    <line x1="250" y1="165" x2="270" y2="180"/>
+    <!-- Legs -->
+    <line x1="250" y1="200" x2="235" y2="230"/>
+    <line x1="250" y1="200" x2="265" y2="230"/>
+  </g>
+  
+  <!-- Speech bubble 1 -->
+  <ellipse cx="100" cy="80" rx="45" ry="25" fill="#FFF" stroke="#4A90E2" stroke-width="2"/>
+  <polygon points="125,95 140,110 130,100" fill="#FFF" stroke="#4A90E2" stroke-width="2"/>
+  <text x="100" y="85" font-family="Arial" font-size="12" text-anchor="middle">How are you?</text>
+  
+  <!-- Speech bubble 2 -->
+  <ellipse cx="320" cy="80" rx="45" ry="25" fill="#FFF" stroke="#50E3C2" stroke-width="2"/>
+  <polygon points="275,95 260,110 270,100" fill="#FFF" stroke="#50E3C2" stroke-width="2"/>
+  <text x="320" y="82" font-family="Arial" font-size="11" text-anchor="middle">I'm fine,</text>
+  <text x="320" y="95" font-family="Arial" font-size="11" text-anchor="middle">thank you!</text>
+  
+  <!-- Ground -->
+  <rect x="0" y="240" width="400" height="60" fill="#90EE90"/>
+  
+  <!-- Hearts to show friendly conversation -->
+  <g fill="#FF69B4">
+    <path d="M 200 50 C 195 45, 185 45, 185 55 C 185 45, 175 45, 170 50 C 175 60, 200 70, 200 70 C 200 70, 225 60, 230 50 C 225 45, 215 45, 215 55 C 215 45, 205 45, 200 50 Z"/>
+  </g>
+</svg>

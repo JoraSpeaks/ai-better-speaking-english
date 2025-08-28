@@ -1,0 +1,88 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#87CEEB"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="220" width="400" height="80" fill="#696969"/>
+  
+  <!-- Taxi body -->
+  <rect x="80" y="160" width="240" height="80" fill="#FFD700" stroke="#000" stroke-width="3" rx="10"/>
+  
+  <!-- Taxi roof -->
+  <rect x="120" y="140" width="160" height="20" fill="#FFD700" stroke="#000" stroke-width="2" rx="5"/>
+  
+  <!-- Taxi sign -->
+  <rect x="160" y="120" width="80" height="20" fill="#000"/>
+  <text x="200" y="135" font-family="Arial" font-size="14" text-anchor="middle" fill="#FFF" font-weight="bold">TAXI</text>
+  
+  <!-- Windows -->
+  <rect x="90" y="170" width="40" height="30" fill="#87CEEB" stroke="#000" stroke-width="2"/>
+  <rect x="140" y="170" width="50" height="30" fill="#87CEEB" stroke="#000" stroke-width="2"/>
+  <rect x="200" y="170" width="50" height="30" fill="#87CEEB" stroke="#000" stroke-width="2"/>
+  <rect x="260" y="170" width="50" height="30" fill="#87CEEB" stroke="#000" stroke-width="2"/>
+  
+  <!-- Door lines -->
+  <line x1="135" y1="160" x2="135" y2="240" stroke="#000" stroke-width="2"/>
+  <line x1="195" y1="160" x2="195" y2="240" stroke="#000" stroke-width="2"/>
+  <line x1="255" y1="160" x2="255" y2="240" stroke="#000" stroke-width="2"/>
+  
+  <!-- Door handles -->
+  <circle cx="130" cy="200" r="3" fill="#000"/>
+  <circle cx="200" cy="200" r="3" fill="#000"/>
+  <circle cx="260" cy="200" r="3" fill="#000"/>
+  
+  <!-- Wheels -->
+  <circle cx="110" cy="240" r="20" fill="#000"/>
+  <circle cx="110" cy="240" r="15" fill="#C0C0C0"/>
+  <circle cx="110" cy="240" r="8" fill="#000"/>
+  
+  <circle cx="290" cy="240" r="20" fill="#000"/>
+  <circle cx="290" cy="240" r="15" fill="#C0C0C0"/>
+  <circle cx="290" cy="240" r="8" fill="#000"/>
+  
+  <!-- Headlights -->
+  <circle cx="75" cy="180" r="8" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <circle cx="75" cy="200" r="8" fill="#FFF" stroke="#000" stroke-width="2"/>
+  
+  <!-- Bumper -->
+  <rect x="65" y="170" width="15" height="50" fill="#C0C0C0" stroke="#000" stroke-width="2"/>
+  
+  <!-- License plate -->
+  <rect x="70" y="210" width="25" height="15" fill="#FFF" stroke="#000" stroke-width="1"/>
+  <text x="82" y="220" font-family="Arial" font-size="8" text-anchor="middle">NYC123</text>
+  
+  <!-- Driver -->
+  <g fill="#FFB6C1" stroke="#000" stroke-width="1">
+    <circle cx="115" cy="185" r="8"/>
+  </g>
+  
+  <!-- Checkered pattern -->
+  <g fill="#000">
+    <rect x="90" y="245" width="10" height="10"/>
+    <rect x="110" y="245" width="10" height="10"/>
+    <rect x="130" y="245" width="10" height="10"/>
+    <rect x="150" y="245" width="10" height="10"/>
+    <rect x="170" y="245" width="10" height="10"/>
+    <rect x="190" y="245" width="10" height="10"/>
+    <rect x="210" y="245" width="10" height="10"/>
+    <rect x="230" y="245" width="10" height="10"/>
+    <rect x="250" y="245" width="10" height="10"/>
+    <rect x="270" y="245" width="10" height="10"/>
+    <rect x="290" y="245" width="10" height="10"/>
+    <rect x="310" y="245" width="10" height="10"/>
+  </g>
+  
+  <g fill="#FFF">
+    <rect x="100" y="245" width="10" height="10"/>
+    <rect x="120" y="245" width="10" height="10"/>
+    <rect x="140" y="245" width="10" height="10"/>
+    <rect x="160" y="245" width="10" height="10"/>
+    <rect x="180" y="245" width="10" height="10"/>
+    <rect x="200" y="245" width="10" height="10"/>
+    <rect x="220" y="245" width="10" height="10"/>
+    <rect x="240" y="245" width="10" height="10"/>
+    <rect x="260" y="245" width="10" height="10"/>
+    <rect x="280" y="245" width="10" height="10"/>
+    <rect x="300" y="245" width="10" height="10"/>
+  </g>
+</svg>

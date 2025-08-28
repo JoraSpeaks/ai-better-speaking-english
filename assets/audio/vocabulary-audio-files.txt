@@ -1,0 +1,47 @@
+# Vocabulary Audio Files for Flashcards
+# 
+# These are placeholder files for vocabulary pronunciation audio.
+# Each file should contain the pronunciation of the vocabulary word.
+# 
+# Format: MP3, 44.1kHz, 128kbps
+# Duration: 1-2 seconds per word
+# Speaker: Native English speaker
+
+# Cafe/Food vocabulary
+vocab-cappuccino.mp3    - "cappuccino" (/ˌkæpʊˈtʃiːnoʊ/)
+vocab-croissant.mp3     - "croissant" (/krʊˈsɑːnt/)
+
+# Travel vocabulary  
+vocab-checkin.mp3       - "check-in" (/ˈtʃɛk ɪn/)
+vocab-boardingpass.mp3  - "boarding pass" (/ˈbɔːrdɪŋ pæs/)
+
+# Dining vocabulary
+vocab-reservation.mp3   - "reservation" (/ˌrɛzərˈveɪʃən/)
+
+# Hotel vocabulary
+vocab-keycard.mp3       - "key card" (/ki kɑrd/)
+
+# Shopping vocabulary
+vocab-fittingroom.mp3   - "fitting room" (/ˈfɪtɪŋ rum/)
+
+# Flashcard vocabulary
+flashcard-goodmorning.mp3   - "Good morning"
+flashcard-howareyou.mp3     - "How are you?"
+flashcard-nicetomeetyou.mp3 - "Nice to meet you"
+flashcard-boardingpass.mp3  - "Boarding pass"
+flashcard-departuregate.mp3 - "Departure gate"
+flashcard-taxi.mp3          - "Taxi"
+flashcard-menu.mp3          - "Menu"
+flashcard-bill.mp3          - "Bill/Check"
+flashcard-appetizer.mp3     - "Appetizer"
+flashcard-receipt.mp3       - "Receipt"
+flashcard-sale.mp3          - "Sale/Discount"
+flashcard-creditcard.mp3    - "Credit card"
+flashcard-reception.mp3     - "Reception"
+flashcard-housekeeping.mp3  - "Housekeeping"
+flashcard-wifi.mp3          - "Wi-Fi password"
+flashcard-emergency.mp3     - "Emergency"
+flashcard-pharmacy.mp3      - "Pharmacy"
+flashcard-prescription.mp3  - "Prescription"
+flashcard-excuseme.mp3      - "Excuse me"
+flashcard-couldyouhelp.mp3  - "Could you help me?"

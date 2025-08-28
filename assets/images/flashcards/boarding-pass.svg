@@ -1,0 +1,67 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#E6F3FF"/>
+  
+  <!-- Boarding pass background -->
+  <rect x="50" y="75" width="300" height="150" fill="#FFF" stroke="#4A90E2" stroke-width="3" rx="10"/>
+  
+  <!-- Perforated line -->
+  <line x1="250" y1="75" x2="250" y2="225" stroke="#CCC" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Airline header -->
+  <rect x="50" y="75" width="300" height="40" fill="#4A90E2" rx="10"/>
+  <rect x="50" y="105" width="300" height="10" fill="#4A90E2"/>
+  <text x="200" y="100" font-family="Arial" font-size="16" text-anchor="middle" fill="#FFF" font-weight="bold">AIRLINE BOARDING PASS</text>
+  
+  <!-- Left section -->
+  <text x="70" y="135" font-family="Arial" font-size="12" font-weight="bold">PASSENGER NAME</text>
+  <text x="70" y="150" font-family="Arial" font-size="14">SMITH/JOHN</text>
+  
+  <text x="70" y="170" font-family="Arial" font-size="12" font-weight="bold">FROM</text>
+  <text x="70" y="185" font-family="Arial" font-size="14">NYC</text>
+  
+  <text x="130" y="170" font-family="Arial" font-size="12" font-weight="bold">TO</text>
+  <text x="130" y="185" font-family="Arial" font-size="14">LAX</text>
+  
+  <text x="190" y="170" font-family="Arial" font-size="12" font-weight="bold">GATE</text>
+  <text x="190" y="185" font-family="Arial" font-size="16" font-weight="bold">A12</text>
+  
+  <text x="70" y="205" font-family="Arial" font-size="12" font-weight="bold">SEAT</text>
+  <text x="70" y="220" font-family="Arial" font-size="16" font-weight="bold">14A</text>
+  
+  <!-- Right section (stub) -->
+  <text x="270" y="135" font-family="Arial" font-size="12" font-weight="bold">GATE</text>
+  <text x="270" y="150" font-family="Arial" font-size="18" font-weight="bold">A12</text>
+  
+  <text x="270" y="175" font-family="Arial" font-size="12" font-weight="bold">SEAT</text>
+  <text x="270" y="190" font-family="Arial" font-size="16" font-weight="bold">14A</text>
+  
+  <!-- Barcode -->
+  <g stroke="#000" stroke-width="1">
+    <line x1="270" y1="200" x2="270" y2="215"/>
+    <line x1="272" y1="200" x2="272" y2="215"/>
+    <line x1="275" y1="200" x2="275" y2="215"/>
+    <line x1="277" y1="200" x2="277" y2="215"/>
+    <line x1="280" y1="200" x2="280" y2="215"/>
+    <line x1="283" y1="200" x2="283" y2="215"/>
+    <line x1="285" y1="200" x2="285" y2="215"/>
+    <line x1="288" y1="200" x2="288" y2="215"/>
+    <line x1="290" y1="200" x2="290" y2="215"/>
+    <line x1="293" y1="200" x2="293" y2="215"/>
+    <line x1="295" y1="200" x2="295" y2="215"/>
+    <line x1="298" y1="200" x2="298" y2="215"/>
+    <line x1="301" y1="200" x2="301" y2="215"/>
+    <line x1="304" y1="200" x2="304" y2="215"/>
+    <line x1="307" y1="200" x2="307" y2="215"/>
+    <line x1="310" y1="200" x2="310" y2="215"/>
+    <line x1="313" y1="200" x2="313" y2="215"/>
+    <line x1="316" y1="200" x2="316" y2="215"/>
+    <line x1="319" y1="200" x2="319" y2="215"/>
+    <line x1="322" y1="200" x2="322" y2="215"/>
+  </g>
+  
+  <!-- Airplane icon -->
+  <g fill="#4A90E2">
+    <path d="M 200 40 L 205 45 L 215 43 L 210 48 L 220 50 L 200 55 L 180 50 L 190 48 L 185 43 L 195 45 Z"/>
+  </g>
+</svg>
