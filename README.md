@@ -235,7 +235,7 @@ The app includes a mock speech recognition system. For production use, integrate
 
 **Pierre-Henry Soria**. A **super passionate engineer** who loves automating content creation efficiently!
 
-Enthusiast of YouTube, AI, learning, and—of course—writing! Find me at [pH7.me](https://ph7.me)
+Enthusiast of YouTube, AI, learning, and writing! Find me at [pH7.me](https://ph7.me)
 
 Enjoying this project? **[Buy me a coffee](https://ko-fi.com/phenry)** (spoiler: I love almond extra-hot flat white coffees).
 
@@ -246,7 +246,7 @@ Enjoying this project? **[Buy me a coffee](https://ko-fi.com/phenry)** (spoiler:
 
 ## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
 
 **Happy Learning! 🎉 Improve your English speaking skills with AI-powered practice!**
