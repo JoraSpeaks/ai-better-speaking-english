@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, ScrollView, Alert } from 'react-native';
+import { StyleSheet, ScrollView, Alert, Text as RNText } from 'react-native';
 import { Box, Text, Button } from '../components';
 import { PronunciationPractice } from '../components/PronunciationPractice';
 import { scenarios } from '../data/scenarios';
@@ -274,60 +274,6 @@ export default function ScenarioScreen({ route }: Props) {
             size="large"
           />
         )}
-      </Box>
-    </ScrollView>
-  );
-}
-
-  return (
-    <ScrollView
-      style={styles.container}
-      contentContainerStyle={styles.contentContainer}
-    >
-      <Box variant="container">
-        <Text
-          variant="header"
-          marginBottom="l"
-          animated
-        >
-          {scenario.title}
-        </Text>
-
-        <Animated.View
-          entering={FadeIn}
-          exiting={FadeOut}
-        >
-          <Box
-            variant="card"
-            marginBottom="m"
-          >
-            <Text
-              variant="body"
-              marginBottom="m"
-              style={styles.conversationText}
-            >
-              {currentConversation.text}
-            </Text>
-
-            {currentConversation.role === 'assistant' && (
-              <Button
-                label={isSpeaking ? "Speaking..." : "Listen"}
-                onPress={handleSpeak}
-                variant="secondary"
-                disabled={isSpeaking}
-                loading={isSpeaking}
-              />
-            )}
-          </Box>
-
-          {currentConversationIndex < scenario.conversations.length - 1 && (
-            <Button
-              label="Next"
-              onPress={handleNext}
-              variant="primary"
-            />
-          )}
-        </Animated.View>
       </Box>
     </ScrollView>
   );
